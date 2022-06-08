@@ -27,7 +27,7 @@ class Model {
 			view.changeActiveButton("Problem");
 		});
 
-		let URL = "index.php/?func="+problemNumber;
+		let URL = "https://notebooks.gesis.org/binder/jupyter/user/tenos200-mybinder_test-tkjx837v/lab/tree/index.php"+problemNumber;
 		xhr.open("GET", URL, true);
 		xhr.send();
 	}
