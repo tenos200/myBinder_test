@@ -27,7 +27,7 @@ class Model {
 			view.changeActiveButton("Problem");
 		});
 
-		let URL = "index.php"+problemNumber;
+		let URL = "./scripts/index.php"+problemNumber;
 		xhr.open("GET", URL, true);
 		xhr.send();
 	}
