@@ -5,6 +5,7 @@ class Model {
 	constructor() {
 
 		this.problemObject;
+		console.log("HEllo this is working");
 
 	}
 
